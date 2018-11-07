@@ -1,0 +1,16 @@
+html, body {
+    height: 100vh;
+    margin: 0;  
+}
+
+body {
+    align-items: center;
+    background: url("../images/background.jpg") no-repeat center center / cover;
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+}
+
+.form div + div {
+    margin-top: 0.5em;
+}

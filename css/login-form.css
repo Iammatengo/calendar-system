@@ -1,0 +1,95 @@
+/* Written in BEM */
+
+/* Blocks */
+
+.form {
+    padding: 2%;
+    text-align: center;
+}
+
+.button {
+    box-sizing: border-box;
+    border: 0;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 100%;
+    padding: 2%;
+    width : 200px;
+}
+
+/* Elements */
+
+.form__h1 {
+    font-size: 1em;
+}
+
+.form__h2 {
+    font-size: 1em;
+}
+
+.form__input {
+    box-sizing: border-box;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 75%; 
+    padding: 5px;
+    width : 200px;
+}
+
+.form__register {
+    font-size: 0.7em;
+}
+
+/* Modifiers */
+
+.form_color_white {
+    background-color: white;
+}
+
+.form_border {
+    border: 5px solid transparent;
+    border-image: linear-gradient(to right, #ffdd57 0%, #de3d6e 100%);
+    border-image-slice: 1;
+}
+
+.form__input_border {
+    border: 2px solid #ffdd57;
+}
+
+.form__input_focus-disabled {
+    outline: 0;
+}
+
+.form__link_color-black {
+    color: black;
+}
+
+.button_color_purple {
+    background-color: #9a4985;
+    color: white;
+}
+
+.button_focus_disabled {
+    outline: 0;
+}
+
+.button_color_facebook {
+    border: 2px solid #3b5998;
+    background-color: transparent;
+    font-size: 75%; 
+    text-align: left;
+}
+
+.button_color_twitter {
+    border: 2px solid #00aced;
+    background-color: transparent;
+    font-size: 75%; 
+    text-align: left;
+}
+
+.button_color_google {
+    border: 2px solid #dd4b39;
+    background-color: transparent;
+    font-size: 75%; 
+    text-align: left;
+}

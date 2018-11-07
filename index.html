@@ -5,34 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Log in</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/login-form.css">
 </head>
 <body>
-    <form method="post">
-        <h1>Log in</h1>
-        <div class="facebook">
-            <button type="submit">Login with Facebook</button>
-        </div>
-        <div class="twitter">
-            <button type="submit">Login with Twitter</button>
-        </div>
-        <div class="google">
-            <button type="submit">Login with Google+</button>
-        </div>
-        <p>Or</p>
+    <form class="form form_color_white form_border" action="" method="post">
+        <h1 class="form__h1">Log in</h1>
         <div>
-            <label for="email">Email</label>
-            <input type="email" id="email" name="user_email" placeholder="Email address">
+            <button class="button button_focus_disabled button_color_facebook" type="submit">Login with Facebook</button>
         </div>
         <div>
-            <label for="password">Password</label>
-            <input type="password" id="password" name="user_password" placeholder="Password">
+            <button class="button button_focus_disabled button_color_twitter" type="submit">Login with Twitter</button>
         </div>
-        <small><a href="register.html">No account yet? Register here!</a></small>
-        <div class="button">
-            <button type="submit">Log in</button>
+        <div>
+            <button class="button button_focus_disabled button_color_google" type="submit">Login with Google+</button>
+        </div>
+        <h2 class="form__h2">or</h2>
+        <div>
+            <input class="form__input form__input_border form__input_focus-disabled" type="email" id="email" name="user_email" placeholder="Email address">
+        </div>
+        <div>
+            <input class="form__input form__input_border form__input_focus-disabled" type="password" id="password" name="user_password" placeholder="Password">
+        </div>
+        <div>
+            <small class="form__register">
+                <a href="register.html" class="form__link_color-black">No account yet? Register here!</a>
+            </small>
+        </div>
+        <div>
+            <button class="button button_color_purple button_focus_disabled" type="submit" id="login">Log in</button>
         </div>
     </form>
-    <script src="main.js"></script>
+    <!-- <script src="main.js"></script> -->
 </body>
 </html>
