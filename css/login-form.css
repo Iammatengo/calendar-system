@@ -1,7 +1,3 @@
-/* Written in BEM */
-
-/* Blocks */
-
 .form {
     padding: 2%;
     text-align: center;
@@ -16,8 +12,6 @@
     padding: 2%;
     width : 200px;
 }
-
-/* Elements */
 
 .form__h1 {
     font-size: 1em;
@@ -39,8 +33,6 @@
 .form__register {
     font-size: 0.7em;
 }
-
-/* Modifiers */
 
 .form_color_white {
     background-color: white;
@@ -73,21 +65,21 @@
     outline: 0;
 }
 
-.button_color_facebook {
+.button_facebook {
     border: 2px solid #3b5998;
     background-color: transparent;
     font-size: 75%; 
     text-align: left;
 }
 
-.button_color_twitter {
+.button_twitter {
     border: 2px solid #00aced;
     background-color: transparent;
     font-size: 75%; 
     text-align: left;
 }
 
-.button_color_google {
+.button_google {
     border: 2px solid #dd4b39;
     background-color: transparent;
     font-size: 75%; 
