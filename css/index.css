@@ -9,8 +9,16 @@ body {
     display: flex;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     justify-content: center;
+    
 }
 
 .form div + div {
     margin-top: 0.5em;
+}
+
+label {
+    display: block;
+    font-family: inherit;
+    font-size: 75%; 
+    margin-bottom: 0.5em;
 }
